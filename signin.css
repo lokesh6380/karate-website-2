@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    background-image: url('img/pexels-artem-podrez-6253310 (1).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+height: 100vh;
+
+}
+.navbar-brand{
+    font-size:2rem ;
+    color:white;
+}
+.navbar-brand:hover{
+    text-decoration: underline;
+    color:#FF0060;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    padding: 15px 18px !important;
+    
+}
+go{
+    font-weight: 600;
+    color:black;
+}
+.nav-item{
+    margin:0px 15px ;
+}
+.nav-item .nav-link{
+    color:white;
+    font-size: 14px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.nav-item .nav-link:hover{
+    color:#FF0060;
+border:2px solid black;
+width:fit-content;
+border-radius: 10px;
+
+}
+@media(max-width:990px){
+    .nav-item .nav-link:hover{
+        color:#FF0060;
+        border: none;
+    }
+}
+.dropdown-item{
+    font-weight: 500;
+    }
+    .dropdown-item:hover{
+color:#FF0060;
+    }
+.btn-navbar{
+    display: inline-block;
+    padding: 10px 43px;
+    border:2px solid black;
+    color:white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    background-color:#FF0060;
+    margin-top: 5px;
+
+}
+.btn-navbar:hover{
+    box-shadow: 5px 5px  20px #FF0060;
+    box-shadow: 5px 5px  60px #FF0060 ;
+}
+.breadcrumb-item,a{
+    text-decoration: none;
+    color: black;
+
+}
+.head {
+    background-color: #FF0060;
+    width: 100%;
+}
+/*login form start*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+ }
+ .icon{
+     color: white;
+     padding-right: 15px;
+ }
+ 
+ .heading{
+     color: white;
+     text-decoration: underline;
+     transition: 0.3s;
+     text-align: center;
+ }
+ .heading:hover{
+     letter-spacing: 2px;
+     color:#2C74B3;
+ }
+ 
+ .login-container{
+     background-color:rgba(0,0,0,.5) ;
+     color: black;
+     width:fit-content;
+     padding: 40px;
+     border-radius: 15px;
+     border: 3px black solid;
+     box-shadow: 11px 9px 28px 0px rgba(0,0,0,0.41);
+ -webkit-box-shadow: 11px 9px 28px 0px rgba(0,0,0,0.41);
+ -moz-box-shadow: 11px 9px 28px 0px rgba(0,0,0,0.41);
+ text-align: center;
+ 
+ }
+ #textlabel{
+     padding: 4px;
+     border-radius: 10px;
+     color:black;
+     
+ }
+ .button-container{
+     padding-top: 10px;
+     border-radius: 4px;
+     color:white;
+    
+ }
+ 
+ .text{
+     color: black;
+     font-size: 17px;
+     padding-top: 15px;
+ }
+ .pass{
+    margin-top: 15px;
+ }
+ .pass:hover{
+     text-decoration: underline;
+     cursor: pointer;
+ 
+ }
+ 
+ .btn{
+    background-color: #FF0060;
+ }
+ .btn:hover{
+    background-color: #e3075b;
+ }
+ #textlabel{
+     margin-top: 10px;
+ }
+ .account{
+    color: black;
+ }
+ .account,a{
+    margin-top: 15px;
+     color:black;
+     padding-left: 5px;
+ }
+.h4,a:hover{
+    text-decoration: underline;
+}
+/*login form end*/
+
